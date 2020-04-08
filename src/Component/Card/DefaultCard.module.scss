@@ -1,0 +1,12 @@
+@import "./src/color";
+
+.category{
+    position: absolute;
+    top: 10px;
+    font-size: 1.2rem;
+    left: 8px;
+    background-color:$purple;
+    color:$primeryColor !important;
+    padding: 5px 10px;
+    border-radius: 100px;
+}

@@ -1,0 +1,84 @@
+@import "./src/color";
+
+.heading{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 400;
+    color: $secondryColor;
+    margin-top: 2.3rem;
+}
+.label{
+    font-size:1.2rem  !important;
+    color: lighten($secondryColor, 5);
+}
+.input{
+    font-size: 1.1rem !important;
+    border: none;
+    color: lighten($secondryColor, 6);
+    &::placeholder{
+        font-size:1.3rem !important;
+        color: lighten($secondryColor, 8);
+    }
+    &:focus,&:hover{
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.checkBox{
+    font-size:1rem !important;
+    border:none;
+    background-color: $primeryColor;
+    color:$secondryColor;
+
+    label{
+        font-size:1.1rem !important;
+    }
+}
+
+
+
+.btnsubmit{
+    color: $primeryColor !important;
+    background-color: $secondryColor !important;
+    border: none !important;
+    margin-top: 1.5rem !important;
+    padding: 0.3rem 1.3rem 0.4rem 1.3rem !important;
+    font-size: 1.2rem !important;
+    border-radius: 3rem !important;
+    &:focus{
+        background-color: $primeryColor !important;
+        color: $secondryColor !important;
+        border: none !important;
+        box-shadow: 0 0 0 0.2rem rgba(207, 204, 212, 0.17) !important;
+    }
+    &:hover{
+        background-color: $primeryColor !important;
+        color: $secondryColor !important;
+        border: none !important;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    
+    .checkBox{
+        input{
+            right: 162px !important;
+            margin-top:0.4rem !important;
+        }
+        margin: 0px 10px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .checkBox{
+        input{
+            right: 162px !important;
+            margin-top:0.4rem !important;
+        }
+        margin: 0px 10px;
+    }
+}

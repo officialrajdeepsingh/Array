@@ -1,0 +1,58 @@
+@import "./src/color";
+
+.bg{
+    margin-top: 1rem !important;
+
+    background-color: $primeryColor;
+
+}
+.hight{
+    height:calc(100vh - 82px);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    cursor:pointer;
+}
+
+.menu{
+	background-color: $secondryColor;
+	padding: 15px;
+	height:200px;
+	overflow-x:hidden;
+    overflow-y: scroll;
+    border:none  !important ;
+
+    &:focus,&:hover{
+        border:none !important ;
+        outline: none !important;
+    }
+    
+     &::-webkit-scrollbar {
+        width: 8px;
+      }
+       
+    &::-webkit-scrollbar-track {
+        background-color: transparent ;
+    }
+       
+    &::-webkit-scrollbar-thumb {
+        background-color: $primeryColor;
+        border-radius: 200px;
+       
+      }
+
+
+}
+
+.menuItem{
+	padding: 8px;
+	margin: 3px 0px;
+    border:none;
+    color: $primeryColor;	
+    cursor:pointer;
+
+    &:focus,&:hover{
+        border:none !important ;
+        outline: none !important;
+    }
+}

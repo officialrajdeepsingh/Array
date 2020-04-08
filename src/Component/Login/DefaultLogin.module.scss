@@ -1,0 +1,191 @@
+
+ @import "./src/color";
+
+
+.ownhight{
+    min-height:100vh;
+}
+
+.bg{
+    background-color: $secondryColor;
+}
+
+.tittle{
+    color: $primeryColor;
+    font-size: 3.3rem;
+    font-weight: 300;
+    line-height: 4rem;
+}
+.text{
+    color: $primeryColor;
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+.ourcontainer{
+    margin-top: 6rem;
+    padding: 1.2rem;
+}
+.btnprimary {
+    color: $secondryColor !important;
+    background-color: $primeryColor !important;
+    border: none !important;
+    margin-top: 2rem !important;
+    padding: .3rem .9rem .3rem .9rem!important;
+    font-size: 1.3rem !important;
+    border-radius: 2rem !important;
+    
+    &:hover{
+        color: $secondryColor !important;
+        background-color: $primeryColor !important;
+        border: none !important;
+    }
+    &:focus{
+        color: $secondryColor !important;
+        background-color: $primeryColor !important;
+        border: none !important;
+        box-shadow: 0 0 0 0.2rem rgba(207, 204, 212, 0.17) !important;    
+    }
+}
+
+.texttittle{
+    color: $secondryColor;
+    font-size: 3.6rem;
+    padding: 1rem 0rem 2rem 0rem;
+    font-weight: 300;
+    line-height: 4rem;
+    text-align: center;
+}
+.textor{
+    color: $secondryColor;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.btnsubmit{
+    color: $primeryColor !important;
+    background-color: $secondryColor !important;
+    border: none !important;
+    margin-top: 1.5rem !important;
+    padding: 0.3rem 1.3rem 0.4rem 1.3rem !important;
+    font-size: 1.2rem !important;
+    border-radius: 3rem !important;
+    &:focus{
+        background-color: $primeryColor !important;
+        color: $secondryColor !important;
+        border: none !important;
+        box-shadow: 0 0 0 0.2rem rgba(207, 204, 212, 0.17) !important;
+    }
+    &:hover{
+        background-color: $primeryColor !important;
+        color: $secondryColor !important;
+        border: none !important;
+    }
+}
+
+
+.formControl{
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    color: $secondryColor !important;
+    background-color: $primeryColor !important;
+    border-radius: 2.2rem !important;
+    border-color: $secondryColor !important;
+    margin-top: .7rem !important;
+}
+
+.formControl:focus{
+    box-shadow: 0 0 0 0.2rem rgb(35, 39, 58) !important;
+}
+
+
+// resipnsive  media queries
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .ownhight{
+        height:auto;
+    }
+    .tittle{
+        font-size: 2rem;
+    }
+    .text{
+       
+        font-size: 2rem;
+        padding-top: 0rem;
+        line-height: 2.7rem;
+    }
+    .btnprimary {
+        margin-bottom:2rem !important
+    }
+        
+    .texttittle{
+        font-size: 2.2rem;
+        padding: 0rem 0rem 2rem 0rem;
+        font-weight: 400;
+    }
+
+    .btnsubmit{  
+        margin-bottom: 12rem !important; 
+    }
+
+  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .tittle{
+        font-size: 4rem;
+    }
+    .text{
+        font-size: 2.2rem;
+        padding-top: 0rem;
+        line-height: 3rem;
+    }
+    .ourcontainer {
+        margin-top: 3rem;
+    }
+    .btnprimary {
+        margin-bottom: 2rem !important;
+        padding: 0.4rem 1rem 0.4rem 1rem !important;
+    }  
+    .texttittle{
+        font-size: 3rem;
+        padding: 0rem 0rem 2rem 0rem;
+        font-weight: 400;
+    }
+    .btnsubmit{  
+        margin-bottom: 15rem !important; 
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .tittle{
+        font-size: 2.6rem;
+    }
+    .ourcontainer {
+        margin-top: 3rem;
+    }
+    .text{   
+        font-size: 2.2rem;
+        padding-top: 0rem;
+    }
+    .btnprimary {
+        margin-bottom:2rem !important
+    }
+        
+    .texttittle{
+        font-size: 2.5rem;
+        padding: 0rem 0rem 2rem 0rem;
+        font-weight: 400;
+    }
+
+    .btnsubmit{  
+        margin-bottom: 0rem !important; 
+    }
+
+  }

@@ -1,0 +1,57 @@
+@import "./src/color";
+
+.flexcolumn{
+    display:flex !important;
+    flex-direction: column !important;
+}
+
+
+.NavLink{
+    font-family: 'Muli', sans-serif !important;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: $primeryColor !important;
+}
+
+.width{
+    width:180px !important;
+    padding: 0 1rem 1rem 1rem!important;
+    margin-bottom: 2.3rem;
+    cursor: pointer !important;
+}
+
+.NavDropdowndrop { 
+    a{
+        font-family: 'Muli', sans-serif !important;
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: $primeryColor !important; 
+    }
+}
+
+.activeClass{
+    font-weight: 400 !important;
+    font-size: 1.3em;
+    border-left: 2px solid #ccd0d41a !important;
+    border-radius: 1px;
+    color: $primeryColor !important;
+}
+
+.navbartogglers {
+    cursor: pointer  !important;
+    border: none !important;
+
+    span {
+        height:60px;
+        width:60px;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+        cursor: pointer  !important;
+    }
+}    
+
+.spreate{
+    height: 1px;
+    width: 100%;
+    background-color: #b1b1b152;
+    margin: 1em 0;
+}

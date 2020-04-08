@@ -1,0 +1,21 @@
+@import "./src/color";
+
+
+.notificatioImage{
+    height:50px;
+    width:50px ;
+}
+
+.mediaCardheading{
+    color:$secondryColor;
+    font-size:1rem;
+}
+
+.mediaCardtext{
+    color:$secondryColor;
+    font-size: 0.9rem;
+}
+
+.none{
+    display: none !important;
+}

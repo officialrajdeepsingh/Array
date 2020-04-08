@@ -1,0 +1,42 @@
+
+// import for color 
+// Read More On here  https://getbootstrap.com/docs/4.4/getting-started/theming/#sass
+// @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+// 80% color change use in this variable and other color change manuly
+// variable for color
+$primeryColor:white;
+$secondryColor:#23273a;
+$backgraoundColor:#ececec ;
+
+//  Bootstarp all color variable 
+// $blue
+// $indigo
+// $purple 
+// $pink
+// $red
+// $orange
+// $yellow
+// $green
+// $teal
+// $cyan
+// $white
+// $gray-600
+// $gray-800
+
+
+
+
+// variable for Font
+$fontMontserrat:Montserrat;
+$fontMuli:Muli;
+$fontDefault:$fontMontserrat ,$fontMuli ,--font-family-sans-serif,--font-family-monospace;
+
+
+// inbuid font variable
+// --font-family-sans-serif,
+// --font-family-monospace

@@ -1,0 +1,21 @@
+@import "./src/color";
+
+.col{
+    background-color: $primeryColor;
+    margin:1rem ;
+    height:120px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    img{
+        position: relative;
+        top: 0px;
+        margin: auto;
+    }
+    span{
+        position: relative;
+        top: 0px;
+        margin: auto;
+    }
+}

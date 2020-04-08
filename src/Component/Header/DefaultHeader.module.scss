@@ -1,0 +1,115 @@
+
+ @import "./src/color";
+
+
+.bg{
+    background-color: $secondryColor !important;
+    color: $primeryColor !important;
+    display:flex !important;
+    justify-content: space-between !important;
+    padding : 10px 0px ;
+}
+
+
+.bgImage{
+    width: 50px !important;
+    height: 50px !important;
+    border: 2px solid $primeryColor !important;
+    background-image: url(../Image/person.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+.imageWidth{
+    height: 25px !important;
+    width: 25px !important;
+    margin-left: 1rem !important;
+}
+
+
+.author{
+    color: $primeryColor !important;
+    font-size: 1.2rem !important;
+    font-weight: 300 !important ;
+    padding-right:1rem !important;
+}
+
+
+.account{
+    background-color: $primeryColor !important;
+    position: absolute !important;
+    top: 55px;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    z-index: 9999;
+    right: 5% !important;
+    max-width: 100px;
+    width: 100px;
+    box-shadow: 1px 1px 20px 1px #23273a78;
+    
+}
+
+.none{
+    display: none !important;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .account{
+        max-width: 100px;
+        width: 100px;
+    }
+    
+    .author{
+        display: none !important;
+    }
+                     
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .account{
+        max-width: 100px;
+        width: 100px;
+    }
+    .author{
+        display: none !important;
+    }
+   
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .account{
+
+        max-width: 100px;
+        width: 100px;
+    }
+    .author{
+        display: none !important;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .account{
+       
+        max-width: 100px;
+        width: 100px;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .account{
+        
+        max-width: 100px;
+        width: 100px;
+    }
+ }

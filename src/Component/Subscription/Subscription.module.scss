@@ -1,0 +1,93 @@
+
+ @import "./src/color";
+
+
+
+.Bg{
+    background-color:$primeryColor !important;
+    margin: 1rem !important;
+    padding: 1rem !important;
+}
+.headTitle{
+    color: $secondryColor !important;
+    font-size: 1.6rem !important;
+    font-weight: 400;
+}
+
+//css for subscription component
+.darkTitle{
+    color: $secondryColor !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    background-color:transparent !important;
+    border:none;
+    &:hover {
+        border:none !important;
+        box-shadow: none !important;
+    }
+    &:focus{
+        border:none !important;
+        box-shadow: none !important;
+    }
+}
+.liteTitle{
+    color: grey !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    background-color:transparent !important;
+    border:none;
+    &:hover {
+        border:none !important;
+        box-shadow: none !important;
+    }
+    &:focus{
+        border:none !important;
+        box-shadow: none !important;
+    }
+}
+
+
+// css for card 
+.card , .cardFooter{
+    background-color: $secondryColor !important;
+    border-radius: 0rem !important;
+}
+.cardTitle{
+    color: $primeryColor !important;
+    font-size: 3.4rem !important;
+    font-weight: 400 !important;
+    padding: 1rem 0 !important;
+    text-align: center;
+}
+
+.cardText{
+    color: $primeryColor !important;
+    font-size: 1.3rem !important;
+    font-weight: 300 !important;
+    padding: 1rem !important;
+}
+
+.card ul li{
+    background-color:  transparent !important;
+    color: $primeryColor !important;
+    border: none !important;
+    border-radius: none !important;
+}
+.cardFooter{
+    text-align: center !important;
+}
+.buyNow{
+    
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: $primeryColor !important;
+}
+
+.badgeprimary {
+    color: $secondryColor;
+    background-color: $primeryColor;
+    border-radius: 2rem !important;
+}

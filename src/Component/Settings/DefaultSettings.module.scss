@@ -1,0 +1,85 @@
+
+
+ @import "./src/color";
+
+
+.bgWhite{
+    background-color: $primeryColor;
+    margin: 1em  0px!important;
+}
+
+.rowBox{
+    justify-content: space-evenly;
+    margin-bottom:1rem
+}
+.bgImage{
+    width: 200px !important;
+    height: 200px !important;
+    border: 2px solid #23273a36 !important;
+    background-image: url(/static/media/person.396f0a37.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background-position: center;
+    position: relative;
+    top: 15px;
+    margin: auto;
+}
+.headTitle{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: $secondryColor;
+}
+.userName{
+    text-align: center;
+    margin-top: -5px !important;
+    font-size: 1.1rem !important;
+    color: lighten($secondryColor, 20) !important;
+}
+
+.icon{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: flex-start;
+    margin:0px;
+    padding:0px;
+    width: auto;
+}
+.facebookIcon{
+    height:60px; 
+    justify-self: flex-start;
+}
+.twitterIcon{
+    height:60px;
+    justify-self: flex-start;
+}
+.youtubeIcon{
+    height:60px;  
+    justify-self: flex-start;
+}
+
+.paraGraf{
+    padding: 1.5em;
+    text-align: left;
+    font-size: 1rem !important;
+    line-height: 1.5rem;
+    color: lighten($secondryColor, 4);
+    word-break: break-all;
+    
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {     
+    .paraGraf{
+        margin:0rem 2rem 2rem 2rem;
+    } 
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .paraGraf{
+        margin:0rem 2rem 2rem 2rem;
+    } 
+}

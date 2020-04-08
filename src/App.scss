@@ -1,0 +1,19 @@
+// Read here https://getbootstrap.com/docs/4.4/getting-started/theming/#importing
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./color";
+
+
+
+body{
+    font-family: $fontMontserrat !important;
+    overflow-x: hidden !important;
+    margin:0px;
+    padding:0px;
+}
+
+
+a{
+    border:none !important;
+    outline: none !important;
+}

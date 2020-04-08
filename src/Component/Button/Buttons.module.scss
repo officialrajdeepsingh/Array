@@ -1,0 +1,244 @@
+ @import "./src/color";
+
+
+.bg{
+    background-color: $primeryColor !important;
+    margin: 1rem;
+    height: 82vh;
+}
+
+.blue{
+    background-color:$primeryColor !important;
+    color: $blue !important;
+    border-radius: 1px !important;
+    margin:2.5rem;
+    width: 100px;
+    &:hover{
+        color:$primeryColor !important;
+        background-color: $blue !important;
+        border: none !important;
+    }
+    &:focus{
+            box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 1) !important;
+    }
+}
+
+.indigo{
+    color:$primeryColor !important;
+    background-color: $indigo !important;
+    border-radius: 100px !important;
+    margin:2.5rem;
+    border: $primeryColor !important;
+    width: 100px;
+    &:hover{
+        background-color:$primeryColor !important;
+        color: $indigo !important;
+        border: 1px solid $indigo !important;
+        
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.purple{
+    color:$primeryColor !important;
+    background-color: $purple !important;
+    border-radius: 100px !important;
+    margin:2.5rem;
+    border: $primeryColor !important;
+    width: 100px;
+    &:hover{
+        background-color:$primeryColor !important;
+        color: $purple !important;
+        border: 1px solid $purple !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+
+
+.pink{
+    color:$pink !important;
+    background-color: $primeryColor !important;
+    border-radius: 100px !important;
+    margin:2.5rem;
+    border: $primeryColor !important;
+    width: 100px;
+    &:hover{
+        background-color:$pink !important;
+        color: $primeryColor !important;
+        border: 1px solid $red !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.red{
+    color:$primeryColor !important;
+    background-color: $red !important;
+    border-radius: 100px !important;
+    margin:2.5rem;
+    border: $primeryColor !important;
+    width: 100px;
+    &:hover{
+        background-color:$primeryColor !important;
+        color: $red !important;
+        border: 1px solid $red !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.orange{
+    color:$primeryColor !important;
+    background-color: $orange !important;
+    border-radius: 100px !important;
+    margin:2.5rem;
+    border: $primeryColor  !important;
+    width: 100px;
+    &:hover{
+        background-color:$primeryColor  !important;
+        color: $orange !important;
+        border: 1px solid $orange !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+.yellow{
+    color:$primeryColor !important;
+    background-color: $yellow !important;
+    border-radius: 100px !important;
+    margin:2.5rem;
+    border: $primeryColor  !important;
+    width: 100px;
+    &:hover{
+        background-color:$primeryColor  !important;
+        color: $yellow !important;
+        border: 1px solid $yellow !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+.green{
+    color:$primeryColor !important;
+    background-color: $green !important;
+    border-radius: 100px !important;
+    margin:2.5rem;
+    border: $primeryColor  !important;
+    width: 100px;
+    &:hover{
+        background-color:$primeryColor  !important;
+        color: $green !important;
+        border: 1px solid $green !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+.teal{
+    color:$primeryColor !important;
+    background-color: $teal !important;
+    border-radius: 100px !important;
+    margin:2.5rem;
+    border: $primeryColor  !important;
+    width: 100px;
+    height:100px;
+    
+    &:hover{
+        background-color:$primeryColor  !important;
+        color: $teal !important;
+        border: 1px solid $teal !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+.gray{
+    color:$primeryColor !important;
+    background-color: $gray-800 !important;
+    border-radius: 10px !important;
+    margin:2.5rem;
+    border: $primeryColor  !important;
+    width: 100px;
+    &:hover{
+        background-color:$primeryColor  !important;
+        color: $gray-600 !important;
+        border: 1px solid $gray-800 !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+
+
+// css for dropDownpink
+.dropDownpink{
+    color:$pink !important;
+    background-color: $primeryColor !important;
+    border-radius: 100px !important;
+    border-color: $primeryColor !important;
+    width: 150px;
+    height: 150px;
+    &:hover{
+        background-color:$pink !important;
+        color: $primeryColor !important;
+        border: 1px solid $red !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+// css for dropDownblue
+.dropDownblue{
+    color:$primeryColor !important;
+    background-color: $purple !important;
+    border-radius: 1px !important;
+    &:hover{
+        background-color:$primeryColor !important;
+        color: $purple !important;
+        border: 1px solid $purple !important;
+    }
+    &:focus{
+            box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 1) !important;
+    }
+}
+
+
+.dropDownpurple{
+    background-color:$primeryColor !important;
+    color: $blue !important;
+    border-radius: 1px !important;
+    &:hover{
+        color:$primeryColor !important;
+        background-color: $blue !important;
+        border: none !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.dropDownred{
+    background-color:$primeryColor !important;
+    color: $red !important;
+    border-radius: 1px !important;
+    border-color:$red;
+    &:hover{
+        color:$primeryColor !important;
+        background-color: $red !important;
+        border: none !important;
+    }
+    &:focus{
+        box-shadow: none !important;
+    }
+
+}

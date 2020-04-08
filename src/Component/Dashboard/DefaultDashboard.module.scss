@@ -1,0 +1,102 @@
+
+ @import "./src/color";
+
+.containerBg{
+    background-color:$backgraoundColor!important;
+}
+#bg{
+    background-color:$primeryColor !important;
+}
+
+.cardBg{
+    color:$primeryColor !important;
+    background-color: $secondryColor !important;
+    border: none !important;
+    border-radius: 0rem !important;
+}
+
+.cradDeckbg{
+    color:$secondryColor !important;
+    background-color: $primeryColor !important;
+    border: none !important;
+    margin-bottom: 0.6rem !important;
+    border-radius: 0rem !important;
+}
+.cardheadText{
+    font-size: 1.2rem !important;
+    color: $primeryColor !important;
+}
+.cardheadTitle{
+    font-size: 1.5rem !important;
+}
+.cardTitle{
+    color:$secondryColor !important;
+    background-color: $primeryColor !important;
+    font-size: 1.5rem !important;
+}
+
+.cardText{
+    color:$secondryColor !important;
+    background-color: $primeryColor !important;
+    font-size: 1.2rem !important;
+}
+.Jumbotron{
+    background-color: $primeryColor !important;
+    border-radius: 0rem !important;
+}
+.headTitle{
+  font-size: 2rem !important;
+  font-weight: 300;
+  color:$secondryColor;
+}
+.subTitle{
+    font-size: 1.3rem !important;
+    font-weight: 300;
+    color: lighten($secondryColor, 10) ;
+    margin-bottom:2rem ;
+}
+
+.Title{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    font-size: 1.3rem !important;
+    font-weight: 400;
+    color: #5368dc;
+    cursor:pointer;
+}
+
+.cardLayout{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+.jumbotornTitle{
+    font-size: 1.1rem !important;
+    font-weight: 300;
+    color: lighten(  $secondryColor, 10)
+}
+.cardHead{
+    font-size: 1.1rem !important;
+    font-weight: 300;
+    color:$secondryColor;
+}
+
+.badgeCard{
+    padding: 0.3rem  !important;
+    color: $primeryColor;
+    border-radius: 0.1rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+.badgebg1{
+    background-color: #673AB7;
+}
+
+.badgebg2{
+    background-color: #FF9800;
+}
+
+.badgebg3{
+    background-color: #673ab769;
+}

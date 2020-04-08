@@ -1,0 +1,77 @@
+@import "./src/color";
+
+.bg{
+    background-color:$primeryColor;
+    margin-top:1rem;
+    height:80vh;
+    padding: 1rem;
+}
+
+.datePicker{
+    background-color: $red !important;
+    color: $primeryColor !important;
+    div{
+        input{
+            color: $primeryColor !important;
+        }
+        span{
+            color: $primeryColor !important;
+        }
+
+    }
+
+    input{
+        color: white !important;
+    }
+    span{
+        color: white !important;
+    }
+}
+
+.secondrydateHeadPicker{
+    background-color: rgb(120, 218, 164) !important;
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+
+    div{
+        border: none !important;
+
+        button[aria-label=target] svg {
+            stroke-width: 2;
+        }
+    }
+
+    input{
+        color: white !important;
+    }
+    span{
+        color: white !important;
+    }
+
+}
+.secondryBodyPicker{
+    background-color:#23273a !important;
+}
+.thirddateHeadPicker{
+    background-color: rgb(120, 218, 164) !important;
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+
+    div{
+        border: none !important;
+
+        button[aria-label=target] svg {
+            stroke-width: 2;
+        }
+    }
+
+    input{
+        color: white !important;
+    }
+    span{
+        color: white !important;
+    }
+
+}

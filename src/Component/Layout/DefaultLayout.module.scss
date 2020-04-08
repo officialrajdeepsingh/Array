@@ -1,0 +1,42 @@
+ 
+ @import "./src/color";
+
+
+.containerBg{
+    background-color:$backgraoundColor!important;
+}
+.ourThink{
+    background-color:$secondryColor;
+    min-height: 100vh;
+    color:$secondryColor;
+}
+
+.paddingRemove{
+    padding:0px !important;
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .ourThink{
+        min-height: 4vh !important;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .ourThink{
+        min-height: 4vh !important;
+    }
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .ourThink{
+        min-height: 4vh !important;
+    }
+    
+}

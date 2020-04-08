@@ -1,0 +1,107 @@
+@import "./src/color";
+
+
+.searchIconClass{
+    cursor: pointer;
+}
+
+
+.seachContainer{
+    font-size: 1.1rem;
+    position: absolute !important;
+    left: -50% !important;
+    border: none;
+    display: flex;
+
+    span {
+         font-size: 2rem !important;
+         margin-right:10px;
+         cursor: pointer !important;
+    }
+    div{
+        display: flex;
+        
+        input{
+                padding: 0.23rem 0.6rem 0.6rem 0.6rem !important;
+                color: $secondryColor;
+                font-size: 1.1rem;
+                border: none;
+                justify-self: start;
+        }
+
+        button{
+                color: $secondryColor !important;
+                background-color: $primeryColor !important;
+                border: 0px;
+                border-radius: 1px;
+                padding: 0.5rem;
+                justify-self: start;
+            
+            &:hover , &:focus{
+                border: none;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+            &:hover , &:focus{
+                border: none;
+                outline: none;
+            }
+
+        }
+}
+.none{
+    display: none !important;
+}
+.iconNone{
+    display: none !important;
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+        
+    .seachContainer{
+        display:none;
+    }
+    .iconNone{
+        display: block !important;
+    }
+              
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .seachContainer{
+        display:none;
+    }
+    .iconNone{
+        display: block !important;
+    }
+    
+
+ 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .seachContainer{
+        display:none;
+    }
+    .iconNone{
+        display: block !important;
+    }
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+        
+    .seachContainer{
+        left: -200px !important;
+        width: 500px; 
+    }
+}

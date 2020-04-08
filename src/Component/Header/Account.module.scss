@@ -1,0 +1,16 @@
+@import "./src/color";
+
+
+// css for Accoun.js 
+.accountLink{
+    color:$secondryColor !important;
+    background-color: $primeryColor !important; 
+
+    &:hover{
+        color:adjust-hue($secondryColor, 180deg) !important;
+    }
+}
+
+.none{
+    display: none !important;
+}

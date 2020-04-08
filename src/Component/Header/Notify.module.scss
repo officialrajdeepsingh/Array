@@ -1,0 +1,73 @@
+@import "./src/color";
+
+.notifyIcon{
+    cursor: pointer;
+}
+
+.notify{
+    background-color: $primeryColor !important;
+    position: absolute !important;
+    top: 40px;
+    left: -20px;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    z-index: 9999;
+    max-width: 400px;
+    width: 400px;
+    box-shadow: 1px 1px 20px 1px #23273a78;
+
+}
+.buttonNotification{
+    color: #23273ac2 !important;
+    background-color:transparent !important;
+    font-size: 1.2rem !important;
+    font-weight: 300 !important;
+    border-radius: 0rem !important;
+    border:0rem !important;
+   &:hover{
+       border: none !important;
+       box-shadow: none !important;
+   }
+   &:focus{
+       border: none !important;
+       box-shadow: none !important;
+   }
+}
+
+
+.none{
+    display: none !important;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+        
+    .notify{
+        left: 40px;
+        top: 50px;
+    }
+
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+ 
+    .notify{
+        left: 40px !important;
+        top: 50px;
+       
+    } 
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .notify{
+        left: 50px !important;
+        top: 50px;
+       
+    } 
+}
+

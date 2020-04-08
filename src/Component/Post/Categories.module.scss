@@ -1,0 +1,94 @@
+@import "./src/color";
+
+.title{
+    color: $secondryColor !important;
+    font-size: 1.4rem !important;
+    font-weight: 300 !important;
+    margin:1.4rem 0rem 1.4rem  0.5rem;
+}
+.tableBg{
+    background-color:$primeryColor;
+    margin:1rem;
+    overflow-x: hidden;
+}
+
+.table{   
+        thead {
+            
+            tr{ 
+                padding: 1em  !important;
+
+                th{
+                    color: lighten($secondryColor, 40)  !important;
+                    font-size: 1.2rem !important;
+                    font-weight: 300 !important;
+                    border:none !important;
+                }
+            }
+        }
+        .tableBody{
+
+            tr{
+                margin: 3rem 0rem !important;
+                border-Bottom: 15px solid $primeryColor !important;
+                
+                .tdMain{
+                    background-color: #dcdff399 !important;
+                    color: $secondryColor !important;
+                    font-size: 1.1rem !important;
+                    padding: 1rem;
+                    word-wrap: break-word;
+                    border: none !important;
+                }
+                .tableIcon{
+                    cursor: pointer;                        
+                }
+            }
+        }
+    
+
+
+} 
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+        
+    .tableBg{
+        height: 50vh;
+    }   
+    .table{
+        overflow-x: auto  !important;
+        overflow-y: auto  !important;
+    }
+    .tableBody{
+        tr{
+            td{
+                font-size: 0.8rem !important;
+            } 
+        }
+    }
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .table{
+        overflow-x: auto  !important;
+        overflow-y: auto  !important;
+    }
+    .tableBody{
+        tr{
+            td{
+                font-size: 0.8rem !important;
+            } 
+        }
+    }
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .table{
+        overflow-x: auto  !important;
+        overflow-y: auto  !important;
+    }
+ }

@@ -1,0 +1,45 @@
+
+
+ @import "./src/color";
+
+
+.statsDefaultbg{
+    background-color: $primeryColor !important;
+    height:580px !important;
+    width: 100%;
+    border-radius: 0rem !important ;
+    
+}
+
+.statsBg{
+    background-color: $primeryColor !important;
+    border-radius: 0rem !important ;
+    margin: 1rem !important 
+}
+
+.tittle{
+    background-color: $primeryColor;
+    padding: 2rem;
+    margin: 1rem 1rem 0rem 1rem !important;
+    text-align:center;
+}
+.blockStata{
+    display: block;
+    background-color: $primeryColor;
+    padding: 0.5rem;
+    margin:1rem ;
+}
+.firstSpan{
+    font-size: 1.1rem;
+    color: lighten($red, 30);       
+}
+.secondSpan{
+    font-size: 1rem;
+    color: lighten($secondryColor,20);
+}
+.recommendTittle{
+    display: flex;
+   
+}
+
+

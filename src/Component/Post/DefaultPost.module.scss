@@ -1,0 +1,111 @@
+
+ @import "./src/color";
+
+
+.tableBg{
+    background-color:  $primeryColor !important;
+    padding: 1rem !important;
+    margin: 1rem !important;
+}
+
+.imageRound{
+    width:50px !important;
+    height: 50px !important;
+}
+
+.title{
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+}
+
+.dropdownToggle{
+    color: $secondryColor !important;
+    background-color: transparent !important;
+    border-radius: 0rem !important;
+    border: none !important;
+    font-size: 1.4rem !important;
+}
+
+
+.customButton{
+    background-color:$secondryColor !important ;
+    color: $primeryColor !important;
+    font-size: 1em !important ;
+    padding: 4px 10px !important ;
+    margin-left: 10px !important;
+    border: none !important;
+    border-radius: 1px !important;
+
+    &:hover{
+        color:$secondryColor !important ;
+        background-color: $primeryColor  !important;
+        border: none !important;
+        outline: none !important;
+        box-shadow: 4px 4px 0px  $secondryColor;
+    }
+    &:focus{
+        outline:none !important;
+        box-shadow: none !important;
+    }
+}
+
+.table{  
+    overflow-x: hidden  !important;
+    overflow-y: hidden  !important; 
+    .thead {
+        
+        tr{ 
+            padding: 1em  !important;
+           
+            th{
+                color: lighten($secondryColor, 15)  !important;
+                font-size: 1.2rem !important;
+                font-weight: 300 !important;
+                border:none !important;
+            }
+        }
+    }
+    tbody{
+
+        tr{
+            margin: 3rem 0rem !important;
+            border-top: 1px solid lighten($secondryColor, 60)  !important;
+        
+            td{
+                background-color: $primeryColor !important;
+                color: lighten($secondryColor, 10)  !important;
+                font-size: 1.1rem !important;
+                padding: 1rem;
+                word-wrap: break-word;
+                border: none !important;
+                vertical-align: middle !important; 
+            }
+          
+        }
+    }
+ }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+        
+    .table{
+        overflow-x: auto  !important;
+        overflow-y: auto  !important;
+    }
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .table{
+        overflow-x: auto  !important;
+        overflow-y: auto  !important;
+    }
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .table{
+        overflow-x: auto  !important;
+        overflow-y: auto  !important;
+    }
+ }

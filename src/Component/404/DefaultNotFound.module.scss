@@ -1,0 +1,58 @@
+
+ @import "./src/color";
+
+.containerBg{
+    background-color:$backgraoundColor!important;
+    padding: 1rem !important;
+}
+.Bg{
+    background-color:$primeryColor !important;
+}
+
+#iconTitle{
+    cursor: pointer !important;
+    height: 40px !important;
+    width: 60px !important;
+    fill:$secondryColor;
+    margin-top:1rem !important;
+}
+
+.title{
+    color:$secondryColor !important;
+    font-size: 10rem !important;
+    text-align: center;
+}
+.headTitle{
+    color:$secondryColor !important;
+    font-size: 3rem !important;
+    text-align: center;
+}
+.text{
+    color:$secondryColor !important;
+    font-size: 1.8rem !important;
+    text-align: center;
+}
+
+
+.btnsubmit{
+    color: $primeryColor !important;
+    background-color: $secondryColor !important;
+    border: none !important;
+    margin-top: 1.5rem !important;
+    padding: 0.3rem 1.3rem 0.4rem 1.3rem !important;
+    font-size: 1.2rem !important;
+    border-radius: 3rem !important;
+    text-align: center !important;
+    width:150px !important; 
+    &:focus{
+        border: none !important;
+        box-shadow: 0 0 0 0.2rem lighten($secondryColor , 30) !important;
+    }
+    &:hover{
+        border: none !important;
+        color: $secondryColor !important;
+        background-color: $primeryColor !important;
+        border:1px solid $secondryColor !important;
+    }
+}
+

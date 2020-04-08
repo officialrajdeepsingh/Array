@@ -1,0 +1,35 @@
+@import "./src/color";
+
+
+.customCursor{
+    cursor: pointer !important;
+    font-size: 1.5rem !important;
+    color: $secondryColor !important;
+}
+
+.customDropdown{
+    z-index: 999; 
+    background-color: $primeryColor !important;
+    color:$secondryColor !important;
+    border: none !important;    
+    position: absolute;
+    right: 70px;
+    width: 150px;
+    box-shadow: 0px 0px 2px 0px $secondryColor !important;
+   
+    .li{
+        background-color: $secondryColor !important;
+        border: none !important;
+        border-radius: 0px !important;
+        color:$primeryColor !important;
+        font-size: 1rem !important;
+        transition:all cubic-bezier(0.5, -0.1, 0.56, 1.13) 0.4s;
+
+        &:hover{
+        
+            background-color: $primeryColor !important;
+            color: $secondryColor !important;
+        }
+    }
+}
+

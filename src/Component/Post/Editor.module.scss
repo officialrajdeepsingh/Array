@@ -1,0 +1,70 @@
+
+ @import "./src/color";
+
+
+
+.tableBg{
+    background-color:  $primeryColor !important;
+    padding: 1rem !important;
+    margin: 1rem !important;
+ }
+ .iconBack{
+    font-size: 2rem;
+    text-align: left;
+    color: $secondryColor;
+    cursor: pointer;
+    animation: iconBack 2s cubic-bezier(0.82, -0.15, 0.18, 1.2) infinite;
+ }
+
+ @keyframes iconBack {
+    0% {
+        padding-left:4px ;
+        color: $secondryColor;
+    }
+    25% {
+        padding-left:3px ;
+        color:  #1c2136b6 ;
+    }
+    50% {
+        padding-left:2px ;
+        color:  #1c2136b6 ;
+    }
+    75% {
+        padding-left:1px ;
+        color:  #1c2136b6 ;
+    }
+    100% {
+        padding-left:0px ;
+        color: $secondryColor;
+    }
+  }
+
+ #CustomHeight{
+     height:auto !important;
+     min-height: 70vh;
+ }
+.editorButton{
+
+    color: $primeryColor !important;
+    background-color:$secondryColor !important;
+    border: none !important;
+    border-radius: 1px !important;
+    padding: 6px 12px;
+    font-size: 1.2em !important;
+    &:focus{
+        box-shadow: none !important
+    }
+    &:hover{
+        background-color: #d6d6d68f !important;
+        color: $secondryColor !important;
+    }
+}
+ .custom{
+
+    div{
+      
+        div{
+                    padding-bottom:  0px !important;
+        }
+    }
+ }

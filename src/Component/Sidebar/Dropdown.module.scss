@@ -1,0 +1,82 @@
+@import "./src/color";
+
+
+.NavLink{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: $primeryColor !important;
+    position: relative;
+    display:inline-block !important;
+}
+
+.dropDown{
+     background-color: $primeryColor !important;
+     margin: 5px 0px;
+     display: block !important;
+     box-shadow: 0px 0px 2px 0px #f4f4f4;
+     width:180px !important;
+    
+    .NavLink{
+        color: $secondryColor !important;
+        font-size: 1.2rem !important;
+        display:inline-block !important;
+   
+        &:hover{
+            background-color: $secondryColor !important;
+            color: $primeryColor !important;
+          
+        }
+    }
+        
+    
+}
+
+.Hover{
+    display: block !important;
+    box-shadow: 0px 0px 3px 0px #23273a6e;
+    position: absolute;
+    left: 160px;
+    top: 30%;
+    z-index: 99999;
+    width: max-content;
+    margin: 10px auto;
+    width:180px !important;
+    
+
+    .NavLink{
+        color: $secondryColor !important;
+        background-color: $primeryColor !important;
+        font-size: 1.3rem !important;
+        display:inline-block;
+        margin: 0px 3px !important;
+       
+       
+        &:hover{
+            background-color: $secondryColor !important;
+            color: $primeryColor !important;
+        }
+    }
+
+}
+
+// css for scroll bar
+.scroll{
+    height:400px !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+
+    &::-webkit-scrollbar {
+        width: 10px;
+      }
+       
+    &::-webkit-scrollbar-track {
+        background-color: $primeryColor ;
+      }
+       
+    &::-webkit-scrollbar-thumb {
+        background-color: $secondryColor;
+        border-radius: 200px;
+       
+      }
+}

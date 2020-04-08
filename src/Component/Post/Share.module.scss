@@ -1,0 +1,50 @@
+
+@import "./src/color";
+
+.JumbotronIhhans{
+    position: absolute;
+    left: 50% !important;
+    bottom: 50% !important;
+    transform: translate(-50%, 50%);
+    margin: auto !important;
+    z-index: 9999;
+    width: 350px;
+    background-color: $secondryColor !important;
+    height: fit-content !important;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem !important;
+    flex-wrap: wrap !important;
+    padding: 1.5rem !important;
+}
+
+.shareButton{
+    height: 30px !important;
+    margin: 12px;
+}
+.icon{
+    font-size: 1rem !important;
+    color:white !important;
+    position: absolute;
+    left: 3% !important;
+    top: 5% !important;
+    margin:5px;
+    cursor:pointer;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .JumbotronIhhans{
+        bottom: -13% !important;
+        position: fixed;
+    }        
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .JumbotronIhhans{
+        bottom: -13% !important;
+        position: fixed;
+    } 
+}
