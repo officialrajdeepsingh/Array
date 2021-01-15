@@ -1,9 +1,12 @@
-Array project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Array
+# Array Dashboard
+Arry dashboard Create By Rajdeep Singh.Array is A open source Project build with react.js and bootstrap 4.
 
 
-###Build with Array
+## Install it
+    git clone https://github.com/officialrajdeepsingh/Array.git
+    cd Array
+    npm start
 
 
 ## Demo Here
